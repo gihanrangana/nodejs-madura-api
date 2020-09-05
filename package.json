@@ -1,0 +1,20 @@
+{
+  "name": "nodejs-madura-api",
+  "version": "1.0.2",
+  "description": "Nodejs Api for Madura Online Dictionary.All credits should goes to Madura Kulathunga who create the Madura Online Dictionary.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@sl-codeblaster/nodejs-madura-api": "^1.0.2",
+    "axios": "^0.20.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.4"
+  }
+}
